@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  ;
+}
+
+body {
+  background-color: rgb(31, 31, 28)
+}
+
+.heading {
+  text-align: center;
+  padding-top: 4px;
+}
+
+.wpm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+#speed {
+  margin-right: 20px;
+}
+
+#text {
+  color: rgb(179, 169, 169);
+  display: flex;
+  word-spacing: 5px;
+  line-height: 100px;
+  margin-top: 75px;
+  font-size: 50px;
+}
